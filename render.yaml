@@ -11,7 +11,7 @@ services:
   - type: web
     plan: standard
     # This is the runtime for services that pull a prebuilt Docker image
-    env: docker
+    runtime: docker
     # You can give the service any name
     name: n8n-service
     image:
